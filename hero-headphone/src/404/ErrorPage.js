@@ -1,10 +1,12 @@
 import React from 'react';
+import { Container } from 'react-bootstrap';
+import ErrorImg from '../assets/img/404-not-found.gif'
 
 const ErrorPage = () => {
     return (
-        <div>
-            <h1>404 Not Found</h1>
-        </div>
+        <Container>
+            <img src={ErrorImg} alt="" />
+        </Container>
     );
 };
 
