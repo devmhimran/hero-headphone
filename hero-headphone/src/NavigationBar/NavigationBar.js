@@ -7,7 +7,7 @@ const NavigationBar = () => {
     return (
         <Navbar expand="lg">
         <Container>
-            <Navbar.Brand className='navbar__logo' href="#home"><img src={HeaderLogo} alt="" /></Navbar.Brand>
+            <Navbar.Brand className='navbar__logo' href="/"><img src={HeaderLogo} alt="" /></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">

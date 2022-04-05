@@ -8,13 +8,9 @@ const Dashboard = () => {
     
     return (
         <div className='Dashboard__main py-5'>
-            <Container>
-                <h1>Welcome To Dashboard</h1>
-            </Container>
         <div className="all__charts">
-        
         </div>
-        {/* <DashboardChart></DashboardChart> */}
+        <DashboardChart></DashboardChart>
         </div>
     );
 };

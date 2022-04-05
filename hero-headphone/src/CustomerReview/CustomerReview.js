@@ -1,6 +1,7 @@
 import React from 'react';
 import { Container, Row } from 'react-bootstrap';
 import './CustomerReview.css';
+import { useNavigate } from 'react-router-dom';
 
 import useReview from '../CustomHooks/UseReview';
 import CustomerReviewMain from '../CustomerReviewMain/CustomerReviewMain';
@@ -9,6 +10,7 @@ import { Button } from 'bootstrap';
 
 const CustomerReview = () => {
     const [review, setReview] = useReview();
+    const navigate = useNavigate();
     return (
         <Container>
             <Row className='g-5'>                   
@@ -17,7 +19,9 @@ const CustomerReview = () => {
                     }
             </Row>
 
-            <button className='btn btn-primary' href="/reviews">Show All Reviews</button>
+            <div className="navigateButton py-5">
+                <button className='btn btn-primary' onClick={()=> navigate('/reviews')}>Show All Reviews</button>
+            </div>
         </Container>
         
     );
