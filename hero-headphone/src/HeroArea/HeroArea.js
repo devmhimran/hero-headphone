@@ -10,6 +10,7 @@ const HeroArea = () => {
                 <Col className='hero__area__left' lg={6} md={6} sm={12}>
                     <div className="hero__area__text">
                         <h1>Sounds That Makes <br /> You Feel <span>Alive</span></h1>
+                        <p>We Serve you earphones, headphones stereos, travel chargers and premium rugged cables. </p>
                     </div>
                 </Col>
         
