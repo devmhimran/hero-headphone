@@ -1,0 +1,12 @@
+.navbar__logo img{
+    width: 200px;
+}
+.nav-link{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    margin: 0 10px;
+    color: #262524 !important;
+}
+.nav-link:hover{
+    color: blue!important;
+}
