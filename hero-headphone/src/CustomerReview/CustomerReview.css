@@ -1,0 +1,35 @@
+.customer__review__info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.customer__review__card{
+    text-align: left;
+}
+.customer__info{
+    display: flex;
+    align-items: center;
+}
+.customer__info p{
+    margin: 0 0 0 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.customer__image{
+    width: 60px;
+    border-radius: 50%;
+
+}
+.review{
+    display: flex;
+    align-items: center;
+}
+.review p{
+    margin: 0 5px 0 0;
+    font-size: 14px;
+    color: #000;
+}
+.review__icon{
+    margin: 0;
+    color: #ffd400;
+}

@@ -1,4 +1,6 @@
 import React from 'react';
+import { Container, Row } from 'react-bootstrap';
+import CustomerReview from '../CustomerReview/CustomerReview';
 // import { Col, Container, Row } from 'react-bootstrap';
 import HeroArea from '../HeroArea/HeroArea';
 import './Home.css';
@@ -10,7 +12,14 @@ const Home = () => {
                 <HeroArea></HeroArea>  
             </div>
             <div className="customer__review">
-
+                <h1 className='pb-5'>Customer Review</h1>
+                <Container>
+                    <Row className='g-5'>
+                        <CustomerReview></CustomerReview>
+                        <CustomerReview></CustomerReview>
+                        <CustomerReview></CustomerReview>
+                    </Row>
+                </Container>
             </div>
         </div>
     );
