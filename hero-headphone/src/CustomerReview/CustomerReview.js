@@ -12,7 +12,7 @@ const CustomerReview = () => {
         <Container>
             <Row className='g-5'>                   
                     {
-                       review.map(data => <CustomerReviewMain key={data.id} review={data}></CustomerReviewMain>) 
+                       review.slice(0, 3).map(data => <CustomerReviewMain key={data.id} review={data}></CustomerReviewMain>) 
                     }
             </Row>
         </Container>
