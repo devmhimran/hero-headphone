@@ -1,5 +1,5 @@
 #Hi there! 
-# I This is My Project About Headphone
+#This is My Project About Headphone
 
 # About My Project
  - Create a Homepage with a hero image and product review
