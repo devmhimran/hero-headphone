@@ -4,6 +4,7 @@ import './CustomerReview.css';
 
 import useReview from '../CustomHooks/UseReview';
 import CustomerReviewMain from '../CustomerReviewMain/CustomerReviewMain';
+import { Button } from 'bootstrap';
 
 
 const CustomerReview = () => {
@@ -15,6 +16,8 @@ const CustomerReview = () => {
                        review.slice(0, 3).map(data => <CustomerReviewMain key={data.id} review={data}></CustomerReviewMain>) 
                     }
             </Row>
+
+            <button className='btn btn-primary' href="/reviews">Show All Reviews</button>
         </Container>
         
     );

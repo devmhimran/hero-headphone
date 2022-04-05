@@ -8,12 +8,13 @@ import Dashboard from './Dashboard/Dashboard';
 import Blogs from './Blogs/Blogs';
 import About from './About/About';
 import ErrorPage from './404/ErrorPage';
+import DashboardChart from './DashboardChart/DashboardChart';
 
 function App() {
   return (
     <div className="App">
      <NavigationBar></NavigationBar>
-     
+     <DashboardChart></DashboardChart>
      <Routes>
        <Route path='/' element={<Home></Home>}></Route>
        <Route path='/reviews' element={<Reviews></Reviews>}></Route>
